@@ -19,4 +19,4 @@
 
 ***
 
-## [pull request](https://github.com/EmadIdris/basic-api-server/pull/2)
+## [pull request](https://github.com/EmadIdris/basic-api-server/pull/4#partial-pull-merging)
