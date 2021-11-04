@@ -15,7 +15,7 @@
  
 ![UML](./Lab3.png)
 
-## [ Heroku ](https://basic-api-server0.herokuapp.com/)
+## [ Heroku ](https://labeeee.herokuapp.com/)
 
 ***
 
