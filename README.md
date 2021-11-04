@@ -19,4 +19,4 @@
 
 ***
 
-## [pull request](https://github.com/EmadIdris/basic-api-server/pull/1)
+## [pull request](https://github.com/EmadIdris/basic-api-server/pull/2)
