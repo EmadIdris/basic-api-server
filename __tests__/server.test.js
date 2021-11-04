@@ -26,8 +26,8 @@ describe('Web server', () => {
     // Testing the POST request (if it can create a food)
     test('POST requests work fine -> Can add a new food', async () => {
         const response = await mockRequest.post('/food').send({
-            item: "potato",
-            calories: "283"
+            Name: "potato",
+            Quantity: "283"
         });
         expect(response.status).toBe(201);
     });
@@ -47,12 +47,13 @@ describe('Web server', () => {
     // Testing the PUT request (if it can update an item)
     it('PUT requests work fine -> Can update a record', async () => {
         const response = await mockRequest.put('/food/1').send({
-            item: 'potato',
-            calories: '383'
+            Name: 'potato',
+            Quantity: '383'
         });
         expect(response.status).toBe(201);
     });
 //-----------------
+
     // Testing the DELETE request (if it can delete an item)
     it('can delete a record', async () => {
         const response = await mockRequest.delete('/food/1');
