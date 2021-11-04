@@ -9,6 +9,7 @@ let sequelizeOptions = process.env.NODE_ENV === 'production' ? {
         }
     }
 } : {};
+console.log(111111111,sequelizeOptions)
 let sequelize = new Sequelize(POSTGRES_URI, sequelizeOptions);
 const food = require('./food.model');
 const clothes = require('./clothes.model');
